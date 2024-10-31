@@ -4,7 +4,6 @@ The ***scRNAtrap*** is a project for identifying gene fragments in **single-cell
 ## System requirements
 **The scRNAtrap is developed using both Python and R.**
 The following are the version numbers of the software or algorithms used in this study.
-
 	Python 3.9.19
 	NumPy 1.26.4
 	PyTorch 2.3.1
@@ -27,23 +26,24 @@ The following are the version numbers of the software or algorithms used in this
 
 ## Installation
 **Python packages can be installed in a shell environment using the "conda install" command.**
-**E.g.**
+
 	conda install Python package name1
 	conda install Python package name2=1.2.3
 
 **R packages can be installed in the R environment using the "install.packege()" or "BiocManager::install()" commands.**
-**E.g.**
+
 	install.packege("packege_name")
 	if(!"BiocManager"%in%installed.packages()){ 
 	install.packages("BiocManager")}
-	if(!"packege_name"%in%installed.packages()){ 
+ 	if(!"packege_name"%in%installed.packages()){ 
 	BiocManager::install("packege_name")}
 	if (!"devtools" %in% installed.packages()) {
-	install.packages("devtools")}
-	devtools::install_github("packege_name")
-
+  	install.packages("devtools")}
+   	devtools::install_github("packege_name")
+    
 ## Code Overview and Instructions
 **The numbers described here correspond to the numbers in the folders within the compressed file(code_set.zip).**
+
 **1.Cut**
 The first step is the "cut" process, which involves random sampling and fragmentation of the original genomic sequences from bacteria, humans, and viruses. This ensures that each nucleotide sequence has an equal chance of being selected, and any part of the selected sequence may be randomly fragmented into short sequences of 48 bp. The resulting fragments are saved separately and serve as the training set for the model.
 
