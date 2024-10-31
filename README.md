@@ -4,6 +4,7 @@ The ***scRNAtrap*** is a project for identifying gene fragments in **single-cell
 ## System requirements
 **The scRNAtrap is developed using both Python and R.**
 The following are the version numbers of the software or algorithms used in this study.
+
 	Python 3.9.19
 	NumPy 1.26.4
 	PyTorch 2.3.1
