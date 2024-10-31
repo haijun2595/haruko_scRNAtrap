@@ -6,13 +6,21 @@ The ***scRNAtrap*** is a project for identifying gene fragments in **single-cell
 The following are the version numbers of the software or algorithms used in this study.
 
 Python 3.9.19
+
 NumPy 1.26.4
+
 PyTorch 2.3.1
+
 Scikit-learn 1.2.2
+
 SciPy 1.13.1
+
 matplotlib 3.8.4
+
 biopython 1.78
+
 zipp 3.17.0
+
 pandas 1.2.3
 
 R 4.1.0
