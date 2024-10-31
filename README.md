@@ -5,33 +5,26 @@ The ***scRNAtrap*** is a project for identifying gene fragments in **single-cell
 **The scRNAtrap is developed using both Python and R.**
 The following are the version numbers of the software or algorithms used in this study.
 
-Python 3.9.19
+	Python 3.9.19
 
-NumPy 1.26.4
+	NumPy 1.26.4
+	PyTorch 2.3.1
+	Scikit-learn 1.2.2
+	SciPy 1.13.1
+	matplotlib 3.8.4
+	biopython 1.78
+	zipp 3.17.0
+	pandas 1.2.3
 
-PyTorch 2.3.1
-
-Scikit-learn 1.2.2
-
-SciPy 1.13.1
-
-matplotlib 3.8.4
-
-biopython 1.78
-
-zipp 3.17.0
-
-pandas 1.2.3
-
-R 4.1.0
-dplyr_1.1.2 
-Seurat_4.3.0.1
-patchwork_1.1.2
-tidyverse_2.0.0
-magrittr_2.0.3
-ggsci_3.0.0
-pheatmap_1.0.12
-ggplot2_3.4.4
+	R 4.1.0
+	dplyr_1.1.2 
+	Seurat_4.3.0.1
+	patchwork_1.1.2
+	tidyverse_2.0.0
+	magrittr_2.0.3
+	ggsci_3.0.0
+	pheatmap_1.0.12
+	ggplot2_3.4.4
 
 ## Installation
 **Python packages can be installed in a shell environment using the "conda install" command.**
